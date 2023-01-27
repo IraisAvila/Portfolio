@@ -1,11 +1,11 @@
 //Navbar code and links//
 
 import { useState, useEffect } from "react";
-import {Navbar, Container} from "react-bootstrap"
-import ialogo from '../img/ialogo';
+import { Navbar, Container, Nav } from "react-bootstrap";
+import ialogo from '../img/ialogo.svg';
 
 
-export const Navbar = () => {
+export const NavBar = () => {
   const [activeLink, setActiveLink] = useState('home');
   const [scrolled, setScrolled] =useState(false);
 
