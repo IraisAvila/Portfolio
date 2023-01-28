@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react";
 import { Navbar, Container, Nav } from "react-bootstrap";
-import ialogo from '../img/ialogo.svg';
+import ialogo from '../img/banner.svg';
 
 
 export const NavBar = () => {

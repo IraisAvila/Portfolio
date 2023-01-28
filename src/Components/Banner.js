@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import headerImg from "../img/ialogo.svg";
+import headerImg from "../img/banner.svg";
 import { ArrowRightCircle } from "react-bootstrap-icons";
 
 export const Banner = () => {
@@ -46,8 +46,8 @@ export const Banner = () => {
             <Container>
                <Row className="align-items-center">
                    <Col xs={12} md={6} xl={7}>
-                       <span className="tagline"> Welcome!</span>
-                       <h1>{"I'm glad you're here"}<span className="wrap">{text}</span></h1>
+                       <span className="tagline"> Welcome, I'm glad you're here!</span>
+                       <h1>{"I'm Irais and I'm "}<span className="wrap">{text}</span></h1>
                        <p> Hello here will go my about me and other things blah blah blah more details and what not! :D</p>
                        <button onClick={() => console.log('connect')}>Let's connect <ArrowRightCircle size={25}/></button>
                    </Col>
